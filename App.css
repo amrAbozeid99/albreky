@@ -1,0 +1,1687 @@
+
+
+*{
+  color: black;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+  
+}
+body{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(231, 231, 230);
+  
+}
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* SocialButton Zone */
+
+.MediaMedia{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.MediaMediaA{
+  margin: 0px 0px 5px 0px;
+}
+.social-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons {
+  margin-bottom: 10px; 
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  background-color: #750000;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MdOutlineMessage{font-size: xx-large;font-weight: bolder;}
+
+
+button:hover {
+  background-color: #a80505;
+}
+
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* Nav Zone */
+.navPe{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+    position: fixed;
+    z-index: 100;
+    direction: rtl;
+
+}
+.nav{
+  width: 760px;
+  height: 40px;
+  background-color: #ffffff;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50px;
+  gap: 15px;
+  box-shadow: 0 0 50px black;
+  transition: 0.7s;
+  z-index: 100;
+}
+
+nav.normal{
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  position: fixed;
+  padding: 10px;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px 0px 0px;
+  transition: 0.7s;
+}
+
+.navLink{
+  transition: 0.5s;
+  font-size: large;
+  
+}
+.navLink:hover{
+  color: red;
+  font-size: large;
+}
+
+.redSpanNav{
+  width: 2px;
+  height: 20px;
+  background-color: red;
+}
+
+
+.ulNavSmail{
+  z-index: 50;
+  position: fixed;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.637);
+  box-shadow: 0 0 10px black;
+  margin: 0px 0px 0px 0px;
+  gap: 5px;
+  padding: 90px 0px 70px 0px;
+  transition: 0.5s;
+}
+.liNavSmail{
+  text-decoration: none;
+  color: #750000;
+  font-style: normal;
+  width: 100%;
+  height: 100%;
+  background-color: #000000b2;
+  box-shadow: 0 0 10px #750000;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+.liNavSmail:hover{
+  background-color: #ffffff9f;
+  box-shadow: 0 0 20px #750000;
+}
+
+.navFall{
+  width: 100%;
+  height: 0px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.sicel{
+  z-index: 100;
+  position: fixed;
+  margin: 66.5vh 0px 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #00000000;
+  transition: 0.5s;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn:hover{
+  color: red;
+  font-size: large;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9b7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 101;
+  border-radius: 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block; 
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #770000; 
+  border-radius: 16px;
+}
+
+.mediaIcon{
+  box-shadow:
+  0 0 10px #7700009d,
+  0 0 20px #77000098,
+  0 0 30px #770000
+  ;
+  background-color: #7700009d;
+  padding: 0px 5px 0px 5px;
+}
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* footer zone */
+footer{
+  width: 100%;
+  height: 270px;
+  padding: 20px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px black;
+}
+.upFooter{
+  width: 100%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction: rtl;
+}
+.upFooterContent{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+  flex-direction: column;
+  text-align: right;
+
+}
+.upFooterContenta{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+  flex-direction: column;
+  text-align: right;
+
+}
+.upFooterContentb{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+  flex-direction: column;
+  text-align: right;
+
+}
+.upFooterContentc{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+  flex-direction: column;
+  text-align: right;
+
+}
+.upFooterContentd{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+  flex-direction: column;
+  text-align: right;
+
+}
+
+.upFooterContent h1{color: #750000;}
+.upFooterContent p{color: #000000;}
+
+.underFooter{
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  direction: rtl;
+  box-shadow: 0 0 1px black;
+  padding: 5px 0px 0px 0px;
+}
+.underFooterR{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: right;
+}
+.underFooterL{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* Home Zone */
+.home{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.slider-container{
+  width: 100%;
+  height: 590px;
+  overflow: hidden;
+}
+
+.frimeSwipesImg{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -5;
+
+}
+
+.swipesImg{
+  width: 100%;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 4s;
+}
+/* .swipesImg:hover{width: 100%;} */
+
+.coces{
+  margin: 25px 0px 0px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  direction: rtl;
+}
+
+.cocesimg{
+  margin: 0px 0px 0px 40px;
+}
+
+.coc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  gap: 5px;
+  transition: 0.1s;
+  direction: ltr;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.541);
+
+}
+.coc:hover{
+  box-shadow: 0 0 5px red;
+  width: 260px;
+}
+
+
+.homeAbout{
+  width: 80%;
+  height: 400px;
+  margin: 20px 0px 150px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction: rtl;
+  flex-wrap: wrap;
+}
+
+.goToAbout{
+  width: 200px;
+  height: 50px;
+  margin: 4px;
+  padding: 0px 5px 0px 5px;
+  border-radius: 20px;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgba(192, 185, 172, 0.795);
+  box-shadow:0 0 10px #000000 ;
+}
+.goToAbout:hover{
+  background-color: #ad79798f;
+  box-shadow:
+  0 0 30px #750000de,
+  0 0 20px #75000070,
+  0 0 10px #7500006c
+   ;
+}
+
+.imgH-A{
+  width: 400px;
+  height: 400px;
+}
+
+.contH-A{
+  width: 50%;
+  height: 100%;
+  text-align: right;
+  margin: 200px 20px 0px 0px;
+}
+
+.contH-A h5{
+  color: rgb(129, 129, 129);
+  margin: 0;
+}
+
+.contH-A h1{
+  color: #750000;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.homeprodicte{
+  margin: 120px 0px 0px 0px;
+  background: url(./imge/prodictesBackG.png);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0px 20px 0px;
+  margin: 0px 0px 20px 0px;
+}
+
+.homeprodicteHead{
+  color: #e9e6e6;
+  font-size: 60px;
+  font-weight: 900;
+  margin: 20px;
+}
+
+.homeprodicteData{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction: rtl;
+}
+
+.homeProdictImg{
+  width: 250px;
+  margin: 1px;
+  height: 95%;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 1s;
+}
+.homeProdictImgbackA{
+  background-image: url(/src/imge/imgeTwo/a.jpg);
+}
+.homeProdictImgbackB{
+  background-image: url(/src/imge/imgeTwo/b.jpg);
+}
+.homeProdictImgbackC{
+  background-image: url(/src/imge/imgeTwo/c.jpg);
+}
+.homeProdictImgbackD{
+  background-image: url(/src/imge/imgeTwo/d.jpg);
+}
+.homeProdictImgbackE{
+background-color: aliceblue;
+direction: ltr;
+color: #8d0909;
+}
+
+
+
+.agag{
+  width: 100%;
+  height: 99%;
+  padding: 400px 0px 0px 0px;
+  transition: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agag:hover{
+  height: 40%;
+  padding:80px 0px 0px 0px;
+  transition: 1s;
+}
+
+.gaga{
+  width: 200px;
+  height: 80px;
+  border-radius: 16px;
+  background-color: rgba(240, 223, 223, 0.884);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8d0909;
+  font-size: x-large;
+  font-weight: 800;
+
+}
+
+.homeProdictImg:hover{
+  flex-grow: 1;
+  
+}
+
+
+
+
+.homedoitHead{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.homedoitHeadPr{
+  color: #1b1a1a;
+  font-size: 60px;
+  font-weight: 900;
+  margin: 20px;
+  
+}
+
+.AlphaSlaiderB{
+background-color: #8d090900;
+margin: 0;
+padding: 0;
+height: 320px;
+overflow: hidden;
+
+}
+
+.swiberB{
+  width: 90px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.swiberB img{
+width: 90%;
+height: 95%;
+border-radius: 20px;
+box-shadow: -3px 3px 3px black;
+}
+
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* About Zone */
+
+.about{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.swiberAbout{
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient( #00000083 ,#00000083 ),url(./Components/slider/imge/خلفيىة\ 2.png) ;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.AboutSwipeHead{
+  color: #e9e6e6;
+  font-size: 60px;
+  font-weight: 900;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.AboutSwipeHeadB{
+  color: #e9e6e6;
+  font-size: 30px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.contenerAbout{
+  width: 100%;
+   margin: 30vh 0px 0px 0px;
+}
+
+.navBinAbout{
+  background-color: #ebe9d0;
+  border-radius: 50px;
+  min-width:210px ;
+  max-width: 200px;
+  min-height:60px ;
+  max-height:60px ;
+  z-index: 5;
+  position: relative;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.452);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 3px;
+}
+.navBinAbout span{background-color: #000000;}
+
+
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* Services Zone */
+.services{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.countanerServicer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 70px 0px 15px 0px;
+}
+
+.ServicerFream{
+  width: 350px;
+  height: 150px;
+  background-color: #000000;
+  background-image: linear-gradient(to top right,  rgba(0, 128, 0, 0) 90% , #8d0909 );
+  border-radius: 16px;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  margin: 10px;
+  text-align: right;
+  color: whitesmoke;
+  padding: 50px;
+}
+.ServicerFream:hover{
+  background-image: linear-gradient(to top right,  rgba(0, 128, 0, 0)  , #8d0909 100%);
+  transition: 1s;
+}
+
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* servicesA Zone */
+
+.servicesA{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.servicesAContaner{
+  margin: 70px 0px 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 1px black;
+}
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* servicesB Zone */
+
+.servicesB{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.servicesBContaner{
+  margin: 70px 0px 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 1px black;
+}
+
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* inspectionRequest Zone */
+
+.inspectionRequest{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inspectionRequestform{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 55px 0px 15px 0px;
+  background-color: rgb(255, 255, 255);
+  gap: 10px;
+  padding: 5px;
+  border-radius: 16px;
+  box-shadow:0 0 5px #000000;
+}
+.inspectionRequestInput{
+  width: 90%;
+  height: 30px;
+  border-radius: 16px;
+  padding: 5px;
+  background-color: #00000000;
+  text-align: right;
+  border: 2px solid #7c0101;
+}
+
+.inspectionRequestMessage{
+  min-width: 90%;
+  max-width: 90%;
+  min-height: 80px;
+  border-radius: 16px;
+  padding: 5px;
+  background-color: #00000000;
+  text-align: right;
+  padding: 5px;
+  border: 0;
+  border: 2px solid #7c0101;
+}
+.inspectionRequestSubmit{
+  background-color: #ffffff00;
+  border-radius: 16px;
+  padding: 5px;
+  border: 0;
+  font-size: larger;
+  font-weight: 700;
+  color:#00a2ff ;
+
+}
+.inspectionRequestSubmit:hover{
+  color:#8d0909 ;
+  font-size: larger;
+
+}
+
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* Articles Zone */
+.articles{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.articlesContener{
+  width: 100%;
+  margin: 35px 0px 35px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.articleContentA{
+  width: 25%;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  gap: 5px;
+  box-shadow: 0 0 1px #000000;
+}
+.articleContentImg{
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  flex-grow: 1;
+}
+.articleContenthead{
+  text-align: right;
+  width: 100%;
+}
+
+
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* Opinios Zone */
+
+.opinios{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.opiniosContaner{
+  margin: 50px 0px 35px 0px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.opiniosVideoA{
+  width: 30%;
+}
+
+
+
+
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* prodict Zone */
+.prodict{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.prodictContaner{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #272626;
+  padding: 60px;
+}
+
+.prodictContanercart{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+gap: 10px;
+direction: rtl;
+}
+
+.prodictcart{
+width: 20%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color: whitesmoke;
+padding: 10px;
+border-radius: 16px;
+}
+
+.prodictImgCart{
+  width: 100%;
+  height: 50%;
+  border-radius: 16px;
+  overflow: hidden ;
+}
+.prodictName{
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  background-color: rgb(214, 211, 206);
+  position: absolute;
+  border-radius: 25px;
+  box-shadow: 0 1px 1px black;
+  box-shadow: 0 1px 10px black;
+  box-shadow: 0 1px 20px black;
+  box-shadow: 0 1px 30px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  color: #750000;
+  margin: 10% 0px 0px 0px;
+}
+.prodictName:hover{
+  background-color: #8d0909;
+  color: white;
+}
+
+.prodictTitel{
+  margin: 50px 0px 0px 0px;
+}
+
+
+.prodictContact{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+.prodictContactphone{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color:#0e759e ;
+  margin: 10px;
+  box-shadow: 0 0 10px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: 900;
+}
+.prodictContactwatsapp{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color:#309e0e ;
+  margin: 10px;
+  box-shadow: 0 0 10px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* Contact Zone */
+
+.contact{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contactContaner{
+  width: 100%;
+  margin: 60px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction: rtl;
+}
+
+.contactForm{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.contactDataform{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  gap: 10px;
+  padding: 5px;
+  border-radius: 16px;
+  box-shadow:0 0 5px #000000;
+}
+
+.googleMab{
+  width: 45%;
+  height: 400px;
+  background-color: #000000;
+  overflow: hidden;
+  z-index: 5;
+}
+
+
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* SwipeProdict Zone */
+
+.SwipeProdictAlpha{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  gap: 0px;
+}
+
+.SwipeProdictFream{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+.SwipeProdictFreamImg{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+.SwipeProdictImg{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+
+.Sliderbutton{
+  width: 90%;
+  padding: 5px;
+  margin: 1px;
+}
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ProdictA Zone */
+
+.prodictA {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.prodictACountaner{
+  width: 100%;
+  margin: 70px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  direction: rtl;
+}
+
+.prodictSwipe{
+  width:25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0px auto 0px;
+}
+
+.prodictText{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.prodictText p{
+  width: 100%;
+}
+.prodictText h2{
+  width: 100%;
+}
+
+.buttonProdictToFree{
+  width: 50%;
+  height: 60px;
+  background-color: wheat;
+  font-size: larger;
+  font-weight: 700;
+  color: #750000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  box-shadow: 0 0 10px black;
+  transition: 0.5s;
+}
+.buttonProdictToFree:hover{
+  background-color: #750000;
+  color: wheat
+}
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+
+
+/* باقى المساحات */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+@media screen and (min-width: 969px) {.smartNav{display: none;}}
+@media screen and (min-width: 1504px) {.contenerAbout{margin: 20vh 0px 0px 0px;}}
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+
+
+
+ 
+
+
+
+
+
+
+  @media screen and (max-width: 968px) {
+
+
+*{font-size: small;}
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+
+/* Nav Zone */
+.BigNavLink{display: none;}
+
+
+.nav{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  direction: ltr;
+  margin: 20px 0px 0px 0px;
+}
+
+nav.normal{
+  width: 90%;
+  padding: 10px 10% 10px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction: ltr;
+}
+
+.smartNav{
+  background-color: silver;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px black ;
+  margin: 0px 0px 0px 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.smartNav:hover{
+  background-color: #a70d0d;
+  box-shadow: 0 0 25px #ff5100 ;
+}
+.navLinkB{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 11%;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.sicel{
+  margin: 75vh 0px 0px 1px;
+
+}
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* Footer Zone */
+
+.upFooterContenta{width: 45%;}
+.upFooterContentd{width: 30%;}
+.upFooterContentc{display: none;}
+
+.footer{
+  width: 100%;
+  height: 320px;
+}
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+
+/* Home Zone */
+  
+  
+  
+    .imgH-A{
+      width: 350px;
+      height: 350px;
+    }
+    .contH-A{
+      width: 50%;
+      height: 100%;
+      text-align: right;
+      margin: 20px 0px 0px 0px;
+    }
+
+    .homeprodicteData{
+      height: 500px;
+    }
+    .homeprodicteData:hover{
+      height: 800px;
+    }
+    .homeprodicteData{
+      flex-direction: column;
+    }
+    .homeProdictImg{
+      width: 90%;
+      height: 100px;
+    }
+
+
+
+
+    
+.swiberB{
+  width: 200px;
+  height: 200px;
+
+}
+.swiberB img{
+width: 90%;
+height: 90%;
+}
+.AlphaSlaiderB{
+  height: 205px;
+  overflow: hidden;
+}
+
+.homeAbout{margin: 50px 0px 220px 0px;}
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* About Zone */
+
+
+.AboutSwipeHead{
+  font-size: 40px;
+  font-weight: 900;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.AboutSwipeHeadB{
+  font-size: 30px;
+  font-weight: 500;
+  width: 100%;
+
+}
+
+.contenerAbout{
+   margin: 25vh 0px 0px 0px;
+}
+
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* Articles Zone */
+
+.articleContentA{
+  width: 80%;
+
+}
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* Opinios Zone */
+
+
+.opiniosVideoA{
+  width: 90%;
+}
+
+
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* prodict Zone */
+.prodict{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden ;
+
+}
+
+.prodictContaner{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #272626;
+  padding: 60px;
+}
+
+.prodictContanercart{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+gap: 15px;
+direction: rtl;
+
+}
+
+.prodictcart{
+width: 90%;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color: whitesmoke;
+padding: 10px;
+border-radius: 16px;
+
+}
+
+.prodictImgCart{
+  width: 100%;
+  height: 45%;
+  border-radius: 16px;
+  overflow: hidden ;
+}
+.prodictName{
+  min-width: 150px;
+  height: 40px;
+  padding: 5px;
+  margin: 65% 0px 0px 0px;
+}
+
+.prodictTitel{
+  margin: 60px 0px 0px 0px;
+  text-align: center;
+}
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* Contact Zone */
+
+.contactContaner{
+  width: 100%;
+  margin: 60px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction: ltr;
+  flex-wrap: wrap;
+}
+
+.contactForm{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+
+.contactDataform{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  gap: 10px;
+  padding: 5px;
+  border-radius: 16px;
+  box-shadow:0 0 5px #000000;
+}
+
+.googleMab{
+  width: 80%;
+  height: 200px;
+  background-color: #000000;
+  margin: 10px;
+}
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+/* ProdictA Zone */
+
+
+.prodictACountaner{
+  flex-direction: column;
+}
+
+.prodictACountaner{
+  width: 100%;
+  margin: 70px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  direction: rtl;
+}
+
+.prodictSwipe{
+  width:60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0px auto 0px;
+}
+
+.prodictText{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.buttonProdictToFree{
+  width: 90%;
+}
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________________________ */
+
+
+
+  @media screen and (max-width: 370) {
+
+/* ____________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________ */
+
+/* About Zone */
+
+.AboutSwipeHead{
+  color: #e9e6e6;
+  font-size: large;
+  font-weight: 400;
+  width: 100%;
+text-align: center;
+
+}
+
+.AboutSwipeHeadB{
+  color: #e9e6e6;
+  font-size: small;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.contenerAbout{
+  width: 100%;
+   margin: 20vh 0px 0px 0px;
+}
+
+.navBinAbout{
+  background-color: #ebe9d0;
+  border-radius: 50px;
+  min-width:210px ;
+  max-width: 200px;
+  min-height:60px ;
+  max-height:60px ;
+  z-index: 5;
+  position: relative;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.452);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 3px;
+}
+.navBinAbout span{background-color: #000000;}
+
+
+
+
+
+
+  }
